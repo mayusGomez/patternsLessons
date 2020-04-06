@@ -1,7 +1,8 @@
 from external.light import Light
 from commands.light_off_command import LightOffCommand
 from commands.light_on_command import LightOnCommand
-from remote_control import RemoteControl
+from commands.remote_control import RemoteControl
+
 
 if __name__ == "__main__":
     kitchen_light = Light('Kitchen')

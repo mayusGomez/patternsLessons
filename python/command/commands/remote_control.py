@@ -1,4 +1,4 @@
-from command import Command, NoCommand
+from commands.command import Command, NoCommand
 
 
 class RemoteControl:

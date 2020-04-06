@@ -1,5 +1,5 @@
 from external.light import Light
-from command import Command
+from commands.command import Command
 
 
 class LightOffCommand(Command):

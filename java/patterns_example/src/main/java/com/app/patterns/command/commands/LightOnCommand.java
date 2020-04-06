@@ -5,7 +5,6 @@
  */
 package com.app.patterns.command.commands;
 
-import com.app.patterns.command.Command;
 import com.app.patterns.command.external.Light;
 
 

@@ -5,14 +5,8 @@
  */
 package com.app.patterns.command.execute;
 
-import com.app.patterns.command.RemoteControl;
-import com.app.patterns.command.commands.LightOnCommand;
-import com.app.patterns.command.commands.LightOffCommand;
-import com.app.patterns.command.commands.StereoOffWithCDCommand;
-import com.app.patterns.command.commands.StereoOnWithCDCommand;
-import com.app.patterns.command.external.Light;
-import com.app.patterns.command.external.Stereo;
-
+import com.app.patterns.command.commands.*;
+import com.app.patterns.command.external.*;
 
 public class CommandTest {
     
