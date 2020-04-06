@@ -3,12 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.app.patterns.comand;
+package com.app.patterns.command;
 
-/**
- *
- * @author agomez
- */
+import com.app.patterns.command.Command;
+
+
 public class RemoteControl {
     
     Command[] onCommands;

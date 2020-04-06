@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.app.patterns.comand.external;
+package com.app.patterns.command.external;
 
-/**
- *
- * @author agomez
- */
+
 public class Light {
     
     String space;

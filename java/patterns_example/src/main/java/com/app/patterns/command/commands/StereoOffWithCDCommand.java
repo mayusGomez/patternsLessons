@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.app.patterns.comand.commands;
+package com.app.patterns.command.commands;
 
-import com.app.patterns.comand.Command;
-import com.app.patterns.comand.external.Stereo;
+import com.app.patterns.command.Command;
+import com.app.patterns.command.external.Stereo;
 
-/**
- *
- * @author agomez
- */
+
 public class StereoOffWithCDCommand implements Command{
     
     Stereo stereo;

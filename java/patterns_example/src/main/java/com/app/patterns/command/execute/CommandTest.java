@@ -5,9 +5,13 @@
  */
 package com.app.patterns.command.execute;
 
-import com.app.patterns.comand.commands.*;
-import com.app.patterns.comand.external.*;
-import com.app.patterns.comand.*;
+import com.app.patterns.command.RemoteControl;
+import com.app.patterns.command.commands.LightOnCommand;
+import com.app.patterns.command.commands.LightOffCommand;
+import com.app.patterns.command.commands.StereoOffWithCDCommand;
+import com.app.patterns.command.commands.StereoOnWithCDCommand;
+import com.app.patterns.command.external.Light;
+import com.app.patterns.command.external.Stereo;
 
 
 public class CommandTest {

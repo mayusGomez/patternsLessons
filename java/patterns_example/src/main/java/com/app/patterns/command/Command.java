@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.app.patterns.comand;
+package com.app.patterns.command;
 
-/**
- *
- * @author agomez
- */
+
 public interface Command {
     public void execute();
     public void undo();
