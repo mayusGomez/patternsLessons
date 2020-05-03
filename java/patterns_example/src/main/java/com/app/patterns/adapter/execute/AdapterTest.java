@@ -23,7 +23,7 @@ public class AdapterTest {
         SeparateInstructions separateInstructions = new SecondaryInstructions(instuctionsValuesTwo);
         System.out.println(separateInstructions.getLength());
         
-        SeparateInstructionsAdapter separateInstructionsAdapter = new SeparateInstructionsAdapter(separateInstructions);
+        ArrayInstructions separateInstructionsAdapter = new SeparateInstructionsAdapter(separateInstructions);
         System.out.println(separateInstructionsAdapter.getLength());
         
     }
